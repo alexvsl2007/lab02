@@ -1,20 +1,10 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello, world from " << name << "!" << endl;
-    return 0;
-}
-#include <iostream>
-
-using namespace std;
-
-int main() {
-    cout << "Hello, world!" << endl;
+    std::string name;
+    std::cout << "Enter your name: "; // Prompt user for name
+    std::cin >> name;
+    std::cout << "Hello, world from " << name << "!" << std::endl; // Greet user
     return 0;
 }
